@@ -2,13 +2,12 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Indian Time Bank | Kottakkal Time Bank — Practical Volunteer Assistance',
+  title: 'Kottakkal Time Bank — Practical Volunteer Assistance',
   description:
     'Centrally governed, multi-municipality volunteer assistance platform. Eligible people receive practical help; verified volunteers accumulate lifetime universal time credits.',
   keywords: [
     'Time Bank',
     'Kottakkal',
-    'Indian Time Bank',
     'Volunteering',
     'Community Care',
     'Universal Time Credit',

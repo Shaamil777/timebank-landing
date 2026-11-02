@@ -2,7 +2,7 @@
   "name": "timebank-landing",
   "version": "0.0.1",
   "private": true,
-  "description": "Indian Time Bank & Kottakkal Time Bank — Public Community Landing Page",
+  "description": "Kottakkal Time Bank — Community volunteer assistance landing page",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

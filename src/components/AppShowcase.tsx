@@ -1677,7 +1677,7 @@ export function AppShowcase() {
                           </button>
 
                           <div style={{ textAlign: 'center', fontSize: '0.68rem', color: '#9CA3AF', marginTop: '0.55rem' }}>
-                            India’s first municipal civic time bank • Zero cash exchange • Insured voluntary care
+                            Kottakkal community time bank • Zero cash exchange • Insured voluntary care
                           </div>
                         </div>
                       </div>

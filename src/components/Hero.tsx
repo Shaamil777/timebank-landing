@@ -146,7 +146,7 @@ export function Hero() {
               fontWeight: 500,
             }}
           >
-            India&rsquo;s first municipal time banking initiative. Give an hour of voluntary care to an elderly neighbor or student in Kottakkal, and accumulate universal time credits in your secure national wallet that never expire.
+            A community time banking initiative for Kottakkal. Give an hour of voluntary care to an elderly neighbor or student and accumulate universal time credits that never expire.
           </p>
 
           {/* Action CTAs */}
