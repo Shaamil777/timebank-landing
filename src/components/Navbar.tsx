@@ -40,9 +40,10 @@ export function Navbar() {
     >
       {/* Full-Width Edge-to-Edge Navigation Bar */}
       <div
+        className="site-nav-inner"
         style={{
           width: '100%',
-          padding: '0 clamp(1.5rem, 3.5vw, 4rem)',
+          padding: '0 clamp(1rem, 3.5vw, 4rem)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
@@ -59,6 +60,7 @@ export function Navbar() {
             textDecoration: 'none',
             flexShrink: 0,
           }}
+          className="site-nav-brand"
         >
           <img
             src="/kottakkal-time-bank-logo-1.png"
@@ -152,6 +154,7 @@ export function Navbar() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexShrink: 0 }}>
           <a
             href="http://localhost:3000"
+            className="coordinator-link"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -183,6 +186,7 @@ export function Navbar() {
           <a
             href="#get-started"
             className="btn-dark-pill"
+            data-nav-start="true"
             style={{
               fontSize: '0.9rem',
               padding: '0.65rem 1.45rem',
@@ -232,6 +236,7 @@ export function Navbar() {
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
         <div
+          className="mobile-menu-drawer"
           style={{
             position: 'absolute',
             top: '100%',
@@ -239,7 +244,7 @@ export function Navbar() {
             right: 0,
             background: '#FFFFFF',
             borderBottom: '1px solid #E5DFD5',
-            padding: '1.5rem 2rem',
+            padding: '1.25rem clamp(1rem, 5vw, 2rem)',
             boxShadow: '0 12px 30px rgba(0, 0, 0, 0.08)',
             display: 'flex',
             flexDirection: 'column',

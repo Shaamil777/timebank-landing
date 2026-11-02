@@ -409,6 +409,7 @@ export function AppShowcase() {
       >
         {/* Master-Detail Asymmetric Split Grid */}
         <div
+          className="app-showcase-layout"
           style={{
             display: 'grid',
             gridTemplateColumns: 'clamp(330px, 32vw, 440px) minmax(0, 1fr)',
@@ -743,6 +744,7 @@ export function AppShowcase() {
               <div
                 key={activeTab}
                 className="stage-animated"
+                data-showcase-stage="true"
                 style={{ padding: activeTab === 'shops' ? '2.2rem 2rem 0.65rem' : '1.85rem 2rem 1.5rem 2rem' }}
               >
 
@@ -809,7 +811,7 @@ export function AppShowcase() {
                     <div
                       style={{
                         display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))',
                         gap: '1.5rem',
                         alignItems: 'start',
                       }}
@@ -905,6 +907,7 @@ export function AppShowcase() {
 
                       {/* Detailed Active Card Preview */}
                       <div
+                        className="showcase-detail-card"
                         style={{
                           background: '#FAF5EE',
                           borderRadius: '20px',
@@ -1179,6 +1182,7 @@ export function AppShowcase() {
                     >
                       {/* Left: Dummy Map Canvas */}
                       <div
+                        className="showcase-map-canvas"
                         style={{
                           position: 'relative',
                           height: '520px',

@@ -22,6 +22,7 @@ export function Hero() {
         }}
       >
         <div
+          className="hero-image-frame"
           style={{
             position: 'relative',
             width: '100%',
@@ -58,6 +59,7 @@ export function Hero() {
 
           {/* Deep organic gradient fade that completely dissolves into the page background */}
           <div
+            className="hero-photo-fade"
             style={{
               position: 'absolute',
               bottom: 0,
@@ -74,6 +76,7 @@ export function Hero() {
       {/* 2. Unified Title, Slogan, and Narrative Section */}
       <div
         className="container"
+        data-hero-intro="true"
         style={{
           position: 'relative',
           marginTop: 'clamp(-290px, -26vw, -180px)',
@@ -84,6 +87,7 @@ export function Hero() {
         <div style={{ maxWidth: '920px', margin: '0 auto' }}>
           {/* Official Civic Authority Label */}
           <div
+            className="hero-kicker"
             style={{
               fontSize: '0.82rem',
               fontWeight: 800,
@@ -108,6 +112,7 @@ export function Hero() {
 
           {/* Main Hero Headline */}
           <h1
+            className="hero-title"
             style={{
               fontSize: 'clamp(2.6rem, 5vw, 4.4rem)',
               fontWeight: 900,
@@ -123,6 +128,7 @@ export function Hero() {
 
           {/* Authentic Malayalam Slogan (Refined & Compact) */}
           <div
+            className="hero-slogan"
             style={{
               fontSize: 'clamp(0.98rem, 1.45vw, 1.2rem)',
               fontWeight: 700,
@@ -137,6 +143,7 @@ export function Hero() {
 
           {/* Plain, Understandable Narrative (Refined & Compact) */}
           <p
+            className="hero-description"
             style={{
               fontSize: 'clamp(0.92rem, 1.2vw, 1.05rem)',
               color: '#4B5563',
@@ -151,6 +158,7 @@ export function Hero() {
 
           {/* Action CTAs */}
           <div
+            className="hero-actions"
             style={{
               display: 'flex',
               flexWrap: 'wrap',
@@ -207,6 +215,7 @@ export function Hero() {
 
           {/* 3. Civic Trust Badges Grid */}
           <div
+            className="hero-trust-grid"
             style={{
               display: 'grid',
               gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
